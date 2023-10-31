@@ -71,7 +71,7 @@ h4 {
 }
 
 .flex-row article {
-  width: 50%;
+  width: 45%;
 }
 
 .flex-row {
@@ -79,6 +79,7 @@ h4 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 
 .flex-column {
@@ -96,9 +97,6 @@ h4 {
   text-align: end;
 }
 
-p {
-  text-align: justify;
-}
 #one {
   position: absolute;
   left: 10px;
@@ -130,4 +128,16 @@ p {
 
 a {
   color: #8a8a8a;
+}
+
+.bookCover {
+  width:150px;
+}
+
+.pressImage {
+  width:150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #42877c;
 }
